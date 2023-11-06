@@ -56,12 +56,13 @@
 
 #### Шаг 1: Настройка окружения
 
-1. Установите Python на вашем сервере. Если он уже установлен, удостоверьтесь, что у вас установлен Python 3.
+1. Установите Python на вашем сервере. Если он уже установлен, удостоверьтесь, что у вас установлен Python3 .
 
 2. Установите библиотеку aiogram с помощью pip:
 
 ```bash
 pip install aiogram
+
 ```
 ### Установите MySQL и настройте базу данных. Для работы с базой данных в Python, вам понадобится библиотека mysql-connector-python, которую вы также можете установить с помощью pip:
 
@@ -174,23 +175,27 @@ aiohttp[speedups]
 ##### cchardet # (aiohttp speedup) high speed universal character encoding detector
 ##### aiodns # (aiohttp speedup) provides a simple way for doing asynchronous DNS resolutions
 
-##### Other packages
+#### Other packages
+
 python-dotenv
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;###############################################################;
+;###     Some useful async libraries to use with aiogram     ###;
+;### for more: https://github.com/timofurrer/awesome-asyncio ###;
+;###############################################################;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
-/###############################################################
-/###     Some useful async libraries to use with aiogram     ###
-/### for more: https://github.com/timofurrer/awesome-asyncio ###
-/##############################################################
 
-##### aiosqlite  # Async work with SQLite
-##### asyncpg  # Async work with PostgreSQL
-##### motor  # Async work with MongoDB
-##### pyzmq  # Async work with ZeroMQ
-##### piccolo  # Async ORM
-##### aql  # Async query builder (beta)
-##### httpx  # Async http client
-##### aiofiles  # Async work with files
-##### aioamqp  # Async work with AMQP
-##### aiocache  # Async work with cache system
-##### aiopath  # Async pathlib
+1. aiosqlite  # Async work with SQLite
+2. asyncpg  # Async work with PostgreSQL
+3. motor  # Async work with MongoDB
+4. pyzmq  # Async work with ZeroMQ
+5. piccolo  # Async ORM
+6. aql  # Async query builder (beta)
+7. httpx  # Async http client
+8. aiofiles  # Async work with files
+9. aioamqp  # Async work with AMQP
+10. aiocache  # Async work with cache system
+11. aiopath  # Async pathlib
+
 ---
